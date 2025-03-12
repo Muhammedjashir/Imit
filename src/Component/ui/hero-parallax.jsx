@@ -107,9 +107,9 @@ const contentData = [
               </h2>
             </div>
             <p className="mt-4 text-blue-900">{contentData[index].description}</p>
-            <a
+            <a 
               href="#"
-              className="mt-4 inline-block text-orange-400 font-semibold hover:text-blue-900 transition duration-500 "
+              className="cursor-pointer mt-4 inline-block text-orange-400 font-semibold hover:text-blue-900 transition duration-500 "
             >
               Read More &rarr;
             </a>
