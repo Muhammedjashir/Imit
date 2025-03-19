@@ -34,7 +34,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }) => {
         
         <div>
             <h1 className="font-medium text-3xl mb-5 text-gray-900">Technologies</h1>
-            <p className="font text-5xl max-w-3xl mb-10 text-gray-800">Technologies That We Use</p>
+            <p className="font text-5xl max-w-3xl mb-10  text-orange-500">Technologies <span className="text-blue-900">That We Use</span></p>
           <div className="relative h-80 w-full">
             <AnimatePresence>
               {testimonials.map((testimonial, index) => (

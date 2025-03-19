@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <>
-      <div className=" bg-white  w-full h-[100px] flex justify-between items-center px-4 sm:px-20 z-10 text-gray-700">
+      <div className="   w-full h-[100px] flex justify-between items-center px-4 sm:px-20 z-10 text-gray-700">
         <div>
           <img
             src="https://imitpark.com/webimg/logo.webp"

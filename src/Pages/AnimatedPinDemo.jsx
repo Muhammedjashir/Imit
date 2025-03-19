@@ -23,7 +23,7 @@ export default function AnimatedPinDemo() {
           </div>
           <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500 " />
           <img className="rounded-3xl"
-            src=" https://img.freepik.com/free-photo/medium-shot-man-typing-laptop_23-2149192119.jpg?t=st=1741596823~exp=1741600423~hmac=074089021b2106a38093bc26239ec006548b4d17ac6c8c97b34ff6878f47842d&w=1060"
+            src="https://www.neit.edu/wp-content/uploads/2022/10/Cyber-Security-Icon-Concept-2-1.jpeg"
             alt=""
           />
         </div>

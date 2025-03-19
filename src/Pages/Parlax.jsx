@@ -1,8 +1,9 @@
 import React from "react";
-import { HeroParallax } from "../Component/ui/hero-parallax";
+import { HeroParallax } from "/src/Component/ui/hero-parallax.jsx"; // ✅ Correct for named export
+
  // Adjust the path based on your project structure
 
-export function HeroParallaxDemo() {
+export function  ParlaxPage() {
   return <HeroParallax products={products} />;
 }
 
@@ -84,4 +85,4 @@ export const products = [
   },
 ];
 
-export default HeroParallaxDemo;
+export default  ParlaxPage;

@@ -7,14 +7,14 @@ export default function FocusCardsDemo() {
           title: "Web Development",
           description:
             "Transforming your ideas into outstanding websites that make a lasting impact. Our web development expertise is your pathway to online success.",
-          img: "https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?t=st=1741586454~exp=1741590054~hmac=290beccfc5e87cfdf1e6911dadf5e169a7f70cd3923946d2c2484f5d8305b3b9&w=996",
+          img: "https://media.istockphoto.com/id/1503858430/vector/website-software-development-concept-web-design-site-and-mobile-app-on-laptop-testing-on.jpg?s=612x612&w=0&k=20&c=k8ckKsgOrPPxohAA_ywg2VXZzdCPptEbOlleRV8Kb7c=",
         },
         {
           id: 2,
           title: "Web & Mobile App Development",
           description:
             "Enhance your online impact with our mastery of Web and Mobile Apps, Web Design, and UI/UX Excellence. We turn your ideas into digital magic.",
-          img: "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149065783.jpg?t=st=1741587331~exp=1741590931~hmac=c7704a802981ffeae165eb32eab4ae65ecb21c633d7c0ad827e2734cfb7bc5ac&w=1060",
+          img: "https://img.freepik.com/free-photo/smartphone-with-user-interface-concept_52683-104212.jpg",
         },
         {
           id: 3,
@@ -28,7 +28,7 @@ export default function FocusCardsDemo() {
           title: "UI/UX Designing",
           description:
             "Crafting digital experiences that are user-friendly, visually compelling, and brand-enhancing. Create visually impressive user interfaces now",
-          img: "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg?t=st=1741587474~exp=1741591074~hmac=c43798de747f20e871953da45c35ba630059317ff302a56252c517c9053f4ca1&w=1060",
+          img: "https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg",
         },
         {
           id: 5,
@@ -49,7 +49,7 @@ export default function FocusCardsDemo() {
           title: "Cyber Security",
           description:
             "Safeguard your digital assets with our top-tier cybersecurity solutions. We protect your business from threats, ensuring a secure and resilient online presence.",
-          img: "https://img.freepik.com/free-photo/side-view-male-hacker-with-gloves-laptop_23-2148578161.jpg?t=st=1741587697~exp=1741591297~hmac=2fa4658aaf332e50b2215b66f5cd9293a7e6ad83a559b1580e600b3cd534c3e3&w=1060",
+          img: "https://st4.depositphotos.com/3203307/26329/i/450/depositphotos_263293556-stock-photo-a-computer-system-hacked-warning.jpg",
         },
       ];
       
