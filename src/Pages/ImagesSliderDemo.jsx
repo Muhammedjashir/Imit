@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { ImagesSlider } from "../Component/ui/ImagesSlider";
 
-export default function ImagesSliderDemo() {
+export default function ImagesSliderDemo(){
   const images = [
     "https://scontent.fcok10-4.fna.fbcdn.net/v/t1.6435-9/125324298_156350959536593_5627460141543474000_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GjlsSDyWp30Q7kNvgG1ymfN&_nc_oc=AdnrEASWOpMkF6Os3i_BuZiy3VtsvFEn_2E1wBzw00wdJF3D9zyGDZlGC6PupN_DbVIY8_cDVThkIIVY7O0dYk7Z&_nc_zt=23&_nc_ht=scontent.fcok10-4.fna&_nc_gid=KCP7XxE-6lrHOpiHc49MFA&oh=00_AYHEM3UHJWrwHT7GdrumTj3kjYI7q4nzl1vlRKy-0IMHfQ&oe=6804B4E1",
     "https://scontent.fcok10-3.fna.fbcdn.net/v/t1.6435-9/125862611_156350909536598_6132161252674376085_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bOw4gJfOKF8Q7kNvgEyg7R6&_nc_oc=Adls3jc8yZsuVk88U-QdXlVUfq1o1KERFXOb0XOwEznxAtmmIzlvLNqCrt5TdZweFnYvJIY5PmCfhD5LQ64blC0o&_nc_zt=23&_nc_ht=scontent.fcok10-3.fna&_nc_gid=G09JkAHblDURAN-cVvZw5w&oh=00_AYHn5cPDPmbLiqdX_zKxoxZ92SwxEteCGw6cjQ1Mxtf_pQ&oe=6804D63B",
