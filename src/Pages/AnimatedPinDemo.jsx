@@ -7,7 +7,7 @@ export default function AnimatedPinDemo() {
         title="/Cyber Finpro..."
         href="https://cyberfinpro.com/"
       >
-        <div className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[1100px] h-[500px] mb-10 ">
+        <div className=" flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[1100px] h-[500px] mb-10 ">
         <h3>Our partner</h3>
           <h3 className="text-3xl !pb-2 !m-0 mb- font-bold  text-slate-100">
             Cyber Finpro

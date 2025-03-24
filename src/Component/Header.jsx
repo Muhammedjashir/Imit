@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <>
-      <div className="   w-full h-[100px] flex justify-between items-center px-4 sm:px-20 z-10 text-gray-700">
+      <div className=" bg-white  w-full h-[60px] flex justify-between items-center px-4 sm:px-20 z-10 text-gray-700  ">
         <div>
           <img
             src="https://imitpark.com/webimg/logo.webp"
@@ -35,7 +35,7 @@ function Header() {
               About ⮟
             </h1>
             {isAboutOpen && (
-              <div className="absolute top-full left-0  shadow-2xs rounded-s py-2 w-38 border text-gray-700 mt-1 z-20">
+              <div className="absolute top-full left-0  shadow-2xs rounded-s py-2 w-38 border text-gray-700 mt-1 z-20 bg-white">
                 <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                   About IMIT
                 </a>
@@ -58,7 +58,7 @@ function Header() {
               Services ⮟
             </h1>
             {isServicesOpen && (
-              <div className="absolute top-full left-0  shadow-2xs rounded-s py-2 w-53 border text-gray-700 mt-1 z-30">
+              <div className="absolute top-full left-0  shadow-2xs rounded-s py-2 w-53 border text-gray-700 mt-1 z-30 bg-white">
                 <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                   Cyber Security
                 </a>

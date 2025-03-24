@@ -41,7 +41,7 @@ const Content = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="flex flex-col lg:flex-row items-center justify-between px-4 lg:px-10 py-10 lg:py-20 bg-white">
+      <section className="flex flex-col lg:flex-row items-center justify-between px-4 lg:px-10 py-10 lg:py-20 bg-white  ">
         
         {/* Text Content */}
         <motion.div

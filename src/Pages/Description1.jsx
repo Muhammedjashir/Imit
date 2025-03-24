@@ -2,9 +2,9 @@ import React from "react";
 
 function Description1() {
   return (
-    <div>
+    <div className="relative z-10 bg-white">
       {/* About Section */}
-      <div className="flex flex-col lg:flex-row px-4 lg:px-10 py-10 lg:py-20 w-full max-w-6xl mx-auto justify-center mb-10">
+      <div className="flex flex-col lg:flex-row px-4 lg:px-10 py-10 lg:py-20 w-full max-w-6xl mx-auto justify-center ">
         {/* Who We Are */}
         <div className="flex flex-col text-gray-700 text-center lg:text-left">
           <h1 className="text-2xl mb-5">Why You Choose</h1>

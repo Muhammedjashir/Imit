@@ -1,7 +1,9 @@
 import React from "react";
+import FloatingDockDemo from "../Pages/FloatingDockDemo";
 
 function Footer() {
   return (
+    <div className="bg-white relative z-10">
     <footer className="ml-5 mr-5 mb-5">
       <div className="bg-black w-full rounded-3xl text-gray-300 p-10">
         <div className="max-w-7xl mx-auto">
@@ -85,7 +87,7 @@ function Footer() {
           </div>
 
           {/* Copyright Section */}
-          <div className="border-t border-gray-700 pt-6 text-center">
+          <div className="border-t border-gray-700 pt-6 text-center mb-10">
             <p className="text-gray-400">
               Copyright &copy; {new Date().getFullYear()}{" "}
               <span className="text-orange-400">IMIT Park.</span> All rights reserved.
@@ -93,8 +95,10 @@ function Footer() {
           </div>
 
         </div>
+      <FloatingDockDemo/>
       </div>
     </footer>
+    </div>
   );
 }
 

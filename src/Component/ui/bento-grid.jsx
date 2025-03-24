@@ -3,14 +3,19 @@ import { cn } from "../../lib/utils";
 
 export const BentoGrid = ({ className, children }) => {
   return (
+    <div className="bg-white relative z-10">
+  <div className=" relative  ">
     <div className={cn("grid md:auto-rows-[18rem] grid-cols-1 md:grid-cols-3 gap-4 max-w-7xl mx-auto", className)}>
       {children}
+    </div>
+    </div>
     </div>
   );
 };
 
 export const BentoGridItem = ({ className, title, description, header, icon, image }) => {
   return (
+   
     <div
       className={cn(
         "row-span-1  rounded-xl group/bento hover:shadow-2xl transition duration-200 shadow-input dark:shadow-none p-4 dark:bg-gray-100 dark:border-white/[0.2] bg-white border border-transparent justify-between flex flex-col space-y-4",
@@ -34,5 +39,6 @@ export const BentoGridItem = ({ className, title, description, header, icon, ima
         <div className="font-sans font-normal text-neutral-600 text-xs dark:text-gray-500">{description}</div>
       </div>
     </div>
+    
   );
 };

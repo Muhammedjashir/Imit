@@ -48,9 +48,10 @@ const items = [
 
 export default function BentoGridSecondDemo() {
   return (
-    <>
-      <div className="ml-4 md:ml-20 mt-10 text-center md:text-left">
-        <h3 className="text-2xl">Portfolio</h3>
+    < >
+    <div className="bg-white relative z-10 h-[800px] ">
+      <div className="ml-4 md:ml-20  text-center md:text-left ">
+        <h3 className="text-2xl ">Portfolio</h3>
         <h1 className="text-3xl md:text-4xl font-medium text-orange-500">
           Our Latest <span className="text-blue-900">Project</span>
         </h1>
@@ -67,6 +68,7 @@ export default function BentoGridSecondDemo() {
           />
         ))}
       </BentoGrid>
+      </div>
     </>
   );
 }
