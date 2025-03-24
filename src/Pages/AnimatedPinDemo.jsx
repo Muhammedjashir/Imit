@@ -2,7 +2,7 @@ import { PinContainer } from "../Component/ui/PinContainer";
 
 export default function AnimatedPinDemo() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center">
+    <div className="h-[40rem] w-full flex items-center justify-center bg-white relative z-10" >
       <PinContainer
         title="/Cyber Finpro..."
         href="https://cyberfinpro.com/"
