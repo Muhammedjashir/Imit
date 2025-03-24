@@ -3,7 +3,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white px-6">
+    <div className="min-h-screen flex items-center justify-center bg-white px-6 relative z-10">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
         {/* Left Content */}
         <div className="relative z-10">

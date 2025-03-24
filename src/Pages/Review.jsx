@@ -25,7 +25,7 @@ const testimonials = [
 
 const Review = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white relative z-10">
       <div className="max-w-7xl mx-auto px-6">
         {/* Heading */}
         <h3 className="text-lg text-gray-600 mb-2 font-bold">Testimonials</h3>
