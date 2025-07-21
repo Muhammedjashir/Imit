@@ -1,12 +1,19 @@
 "use client";
 import { motion } from "framer-motion";
 import { ImagesSlider } from "../Component/ui/ImagesSlider";
+import { useNavigate } from "react-router-dom";
+import imit  from "../assets/image/imit.webp";
+import imit1 from "../assets/image/imit1.jpg";
+import imit2 from "../assets/image/imit2.jpg";
 
 export default function ImagesSliderDemo(){
+  const Navigate = useNavigate();
   const images = [
-    "https://scontent.fcok10-4.fna.fbcdn.net/v/t1.6435-9/125324298_156350959536593_5627460141543474000_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=GjlsSDyWp30Q7kNvgG1ymfN&_nc_oc=AdnrEASWOpMkF6Os3i_BuZiy3VtsvFEn_2E1wBzw00wdJF3D9zyGDZlGC6PupN_DbVIY8_cDVThkIIVY7O0dYk7Z&_nc_zt=23&_nc_ht=scontent.fcok10-4.fna&_nc_gid=KCP7XxE-6lrHOpiHc49MFA&oh=00_AYHEM3UHJWrwHT7GdrumTj3kjYI7q4nzl1vlRKy-0IMHfQ&oe=6804B4E1",
-    "https://scontent.fcok10-3.fna.fbcdn.net/v/t1.6435-9/125862611_156350909536598_6132161252674376085_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=bOw4gJfOKF8Q7kNvgEyg7R6&_nc_oc=Adls3jc8yZsuVk88U-QdXlVUfq1o1KERFXOb0XOwEznxAtmmIzlvLNqCrt5TdZweFnYvJIY5PmCfhD5LQ64blC0o&_nc_zt=23&_nc_ht=scontent.fcok10-3.fna&_nc_gid=G09JkAHblDURAN-cVvZw5w&oh=00_AYHn5cPDPmbLiqdX_zKxoxZ92SwxEteCGw6cjQ1Mxtf_pQ&oe=6804D63B",
-    "https://images.jdmagicbox.com/v2/comp/thrissur/u3/9999px487.x487.230405222127.u7u3/catalogue/imit-park-irinjalakuda-thrissur-software-companies-8m5wuupvv7.jpg",
+    imit,
+    imit1,
+    imit2,
+    // "https://scontent.fcok10-4.fna.fbcdn.net/v/t1.6435-9/125324298_156350959536593_5627460141543474000_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6ss1BzFNuBIQ7kNvwEshx92&_nc_oc=AdkjnSjT8FHTSVOGw1k2YmPlAdSxLFZAYPPvNO1w2bWyM1ty3OTuwHV04A7W_tQGueQZzCyGjK6Xs2X52NDm-owZ&_nc_zt=23&_nc_ht=scontent.fcok10-4.fna&_nc_gid=SaADXdYmIjB4kK9ZmZpnww&oh=00_AfFkuP1c3Z3rVD39rFCWXv7XuSQt6iHNLbEEPisk5IheQw&oe=68381F61",
+    // "https://imitpark.com/webimg/about-7.webp",
   ];
 
   return (
@@ -25,7 +32,7 @@ export default function ImagesSliderDemo(){
             Think Beyond<br /> Deliver Beyond
           </motion.p>
           <button className="px-6 py-2 mt-4 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white rounded-full relative text-sm sm:text-base md:text-lg">
-            <span>Contact Us →</span>
+            <button className="cursor-pointer " onClick={()=>Navigate('/contact')}>Contact Us →</button>
             <div className="absolute inset-x-0 h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
           </button>
         </motion.div>

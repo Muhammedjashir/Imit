@@ -13,32 +13,37 @@ import LogoSlider from "../Pages/LogoSlider";
 import ContactForm from "../Pages/contactForm";
 import Review from "../Pages/Review";
 import ImagesSliderDemo from "../Pages/ImagesSliderDemo";
-
-
-
-
-
-
-
-
+import Portfolio from "../Pages/Portfolio";
+import { Route, Routes } from "react-router-dom";
+import Events from "../Pages/Events";
 
 function Home() {
   return (
     <div>
-      
       <Header />
-      <ImagesSliderDemo/>
-      <HeroParallaxDemo />
-      <Description />
-      <FocusCardsDemo />
-      <AnimatedPinDemo/>
-      <Description1/>
-      <AnimatedTestimonialsDemo/>
-      <BentoGridSecondDemo/>
-      <Description2/>
-      <LogoSlider/>
-      <ContactForm/>
-      <Review/>
+      <Routes>
+        <Route 
+          path="/" 
+          element={
+            <>
+              <ImagesSliderDemo/>
+              <HeroParallaxDemo />
+              <Description />
+              <FocusCardsDemo />
+              <AnimatedPinDemo/>
+              <Description1/>
+              <AnimatedTestimonialsDemo/>
+              <BentoGridSecondDemo/>
+              <Description2/>
+              <LogoSlider/>
+              <ContactForm/>
+              <Review/>
+              <Events/>
+            </>
+          } 
+        /><Route path="/contact" element={<ContactForm/>}/>
+        <Route path="/portfolio" element={<Portfolio/>}/>
+      </Routes>
       <Footer />
     </div>
   );
